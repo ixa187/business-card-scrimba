@@ -1,0 +1,115 @@
+/* colors:
+  background: #0D3340;
+  text: #94ABAE;
+  color-1: #52BA65;
+  color-2: #3B5F6D;
+  color-3: #86A498;
+  color-4: #85A498;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&family=Source+Sans+Pro&display=swap");
+
+/* Front of the card */
+
+body {
+  margin: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.card-container-front {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background: #0d3340;
+  margin: 30px auto;
+}
+
+.top-design {
+  display: flex;
+  justify-content: center;
+}
+
+.top-box-left {
+  width: 25px;
+  height: 25px;
+  background: #86a498;
+}
+
+.top-box-mid {
+  width: 50px;
+  height: 45px;
+  background: #3b5f6d;
+}
+
+.top-box-right {
+  width: 25px;
+  height: 25px;
+  background: #86a498;
+}
+
+.mid-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  row-gap: 7px;
+}
+
+.coder-logo {
+  color: #52ba65;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.web-dev {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.name {
+  color: #94abae;
+  margin: 0;
+}
+
+.bottom-design {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-box-mid {
+  width: 50px;
+  height: 45px;
+  background: #3b5f6d;
+  position: absolute;
+  bottom: 0px;
+}
+
+.bottom-box-right {
+  width: 25px;
+  height: 25px;
+  background: #86a498;
+  position: absolute;
+  bottom: 0px;
+  right: 200px;
+}
+
+.bottom-box-left {
+  width: 25px;
+  height: 25px;
+  background: #86a498;
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+}
+
+/*  Main card */
+.card-container-main {
+  width: 500px;
+  height: 300px;
+  background: #0d3340;
+  margin: 0px auto;
+}
