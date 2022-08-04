@@ -17,10 +17,11 @@ body {
 
 .card-container-front {
   position: relative;
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 350px;
   background: #0d3340;
   margin: 30px auto;
+  border-radius: 10px;
 }
 
 .top-design {
@@ -51,8 +52,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   row-gap: 7px;
 }
 
@@ -94,7 +95,7 @@ body {
   background: #86a498;
   position: absolute;
   bottom: 0px;
-  right: 200px;
+  right: 250px;
 }
 
 .bottom-box-left {
@@ -103,13 +104,117 @@ body {
   background: #86a498;
   position: absolute;
   bottom: 0px;
-  left: 200px;
+  left: 250px;
 }
 
 /*  Main card */
 .card-container-main {
-  width: 500px;
-  height: 300px;
+  position: relative;
+  width: 600px;
+  height: 350px;
   background: #0d3340;
   margin: 0px auto;
+  border-radius: 10px;
+}
+
+.left-design {
+  background: #52ba65;
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  top: 45px;
+}
+
+.info-section {
+  position: absolute;
+  line-height: 0.5;
+  top: 50px;
+}
+
+.real-name {
+  color: #fff;
+  font-size: 21px;
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+.profession {
+  color: #94abae;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+}
+
+.address {
+  position: relative;
+}
+
+.fa-location-dot {
+  color: #86a498;
+  font-size: 23px;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+
+.location-info {
+  color: #94abae;
+  font-size: 14px;
+  position: absolute;
+  line-height: 1.2;
+  top: 27px;
+  left: 49px;
+  margin: 0;
+  width: 180px;
+}
+
+.contact-number {
+  position: relative;
+}
+
+.fa-square-phone {
+  color: #86a498;
+  font-size: 23px;
+  position: absolute;
+  left: 25px;
+  top: 85px;
+}
+
+.smart-tm {
+  color: #94abae;
+  font-size: 14px;
+  position: absolute;
+  top: 79px;
+  left: 50px;
+}
+
+.email-container {
+  position: relative;
+}
+
+.fa-envelope {
+  color: #86a498;
+  font-size: 23px;
+  position: absolute;
+  left: 25px;
+  top: 135px;
+}
+
+.email-info {
+  color: #94abae;
+  font-size: 14px;
+  position: absolute;
+  top: 129px;
+  left: 53px;
+}
+.right-section {
+  position: relative;
+}
+
+.coder-logo-main {
+  color: #52ba65;
+  font-size: 40px;
+  font-weight: bold;
+  left: 500px;
+  position: absolute;
 }
