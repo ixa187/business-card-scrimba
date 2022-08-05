@@ -19,7 +19,7 @@ body {
   position: relative;
   width: 650px;
   height: 350px;
-  background: #0d3340;
+  background: linear-gradient(to right, #0d3340, #354f52);
   margin: 30px auto;
   border-radius: 10px;
 }
@@ -59,7 +59,7 @@ body {
 
 .coder-logo {
   color: #52ba65;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
   margin: 0;
 }
@@ -113,7 +113,7 @@ body {
   position: relative;
   width: 650px;
   height: 350px;
-  background: #0d3340;
+  background: linear-gradient(to right, #0d3340, #354f52);
   margin: 0px auto;
   border-radius: 10px;
   padding: 10px 0px 10px 0px;
@@ -225,6 +225,39 @@ body {
 
 .mid-section-main {
   display: flex;
-  flex-direction: column;
-  row-gap: 1px;
+}
+
+.display-profile {
+  display: flex;
+  width: 160px;
+  border-radius: 15px;
+  position: absolute;
+  left: 370px;
+  top: 110px;
+}
+
+.right-design {
+  display: flex;
+  position: absolute;
+  top: 160px;
+  transform: rotate(90deg);
+  right: -35px;
+}
+
+.right-box-top {
+  background: #86a498;
+  width: 35px;
+  height: 35px;
+}
+
+.right-box-mid {
+  background: #3b5f6d;
+  width: 60px;
+  height: 60px;
+}
+
+.right-box-bottom {
+  background: #86a498;
+  width: 35px;
+  height: 35px;
 }
