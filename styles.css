@@ -17,7 +17,7 @@ body {
 
 .card-container-front {
   position: relative;
-  width: 600px;
+  width: 650px;
   height: 350px;
   background: #0d3340;
   margin: 30px auto;
@@ -71,9 +71,10 @@ body {
   margin: 0;
 }
 
-.name {
+.name-1 {
   color: #94abae;
   margin: 0;
+  font-weight: bold;
 }
 
 .bottom-design {
@@ -95,7 +96,7 @@ body {
   background: #86a498;
   position: absolute;
   bottom: 0px;
-  right: 250px;
+  right: 275px;
 }
 
 .bottom-box-left {
@@ -104,117 +105,126 @@ body {
   background: #86a498;
   position: absolute;
   bottom: 0px;
-  left: 250px;
+  left: 275px;
 }
 
 /*  Main card */
 .card-container-main {
   position: relative;
-  width: 600px;
+  width: 650px;
   height: 350px;
   background: #0d3340;
   margin: 0px auto;
   border-radius: 10px;
+  padding: 10px 0px 10px 0px;
 }
 
 .left-design {
   background: #52ba65;
-  width: 30px;
+  width: 40px;
   height: 35px;
   position: absolute;
   top: 45px;
 }
 
-.info-section {
-  position: absolute;
-  line-height: 0.5;
-  top: 50px;
+.name-profession {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 0px 0px 53px;
+  line-height: 1.3;
 }
 
-.real-name {
+.name-2 {
   color: #fff;
   font-size: 21px;
-  margin-top: 0px;
-  margin-left: 40px;
+  margin: 0;
 }
 
 .profession {
   color: #94abae;
   font-size: 16px;
-  margin-bottom: 0px;
-  margin-left: 40px;
+  margin: 0;
 }
 
 .address {
-  position: relative;
+  display: flex;
+  padding-top: 30px;
 }
 
 .fa-location-dot {
   color: #86a498;
-  font-size: 23px;
-  position: absolute;
-  top: 30px;
-  left: 25px;
+  font-size: 25px;
+  padding: 4px 7px 0px 33px;
 }
 
 .location-info {
   color: #94abae;
-  font-size: 14px;
-  position: absolute;
-  line-height: 1.2;
-  top: 27px;
-  left: 49px;
+  font-size: 15px;
+  width: 230px;
   margin: 0;
-  width: 180px;
 }
 
 .contact-number {
-  position: relative;
+  display: flex;
+  padding-top: 25px;
 }
 
 .fa-square-phone {
   color: #86a498;
-  font-size: 23px;
-  position: absolute;
-  left: 25px;
-  top: 85px;
+  font-size: 20px;
+  padding: 4px 7px 0px 33px;
 }
 
 .smart-tm {
+  padding-top: 4px;
+}
+
+.phone-number {
   color: #94abae;
-  font-size: 14px;
-  position: absolute;
-  top: 79px;
-  left: 50px;
+  font-size: 15px;
+  width: 200px;
+  margin: 0;
 }
 
 .email-container {
-  position: relative;
+  display: flex;
+  padding-top: 15px;
 }
 
 .fa-envelope {
   color: #86a498;
-  font-size: 23px;
-  position: absolute;
-  left: 25px;
-  top: 135px;
+  font-size: 20px;
+  padding: 4px 7px 0px 33px;
 }
 
 .email-info {
   color: #94abae;
-  font-size: 14px;
-  position: absolute;
-  top: 129px;
-  left: 53px;
-}
-.right-section {
-  position: relative;
+  margin: 0;
+  font-size: 15px;
+  padding-top: 4px;
 }
 
-.coder-logo-main {
-  color: #52ba65;
-  font-size: 40px;
-  font-weight: bold;
-  left: 500px;
-  position: absolute;
+.my-website {
+  display: flex;
+  padding-top: 20px;
+}
+
+.fa-globe {
+  color: #86a498;
+  font-size: 20px;
+  padding: 4px 7px 0px 33px;
+}
+
+.website-link {
+  color: #94abae;
+  margin: 0;
+  font-size: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.mid-section-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
 }
